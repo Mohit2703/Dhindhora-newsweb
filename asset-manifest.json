@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Dhindhora-newsweb/static/css/main.e1cf4a89.chunk.css",
+    "main.js": "/Dhindhora-newsweb/static/js/main.60de722c.chunk.js",
+    "main.js.map": "/Dhindhora-newsweb/static/js/main.60de722c.chunk.js.map",
+    "runtime-main.js": "/Dhindhora-newsweb/static/js/runtime-main.b891f0a3.js",
+    "runtime-main.js.map": "/Dhindhora-newsweb/static/js/runtime-main.b891f0a3.js.map",
+    "static/js/2.b569769c.chunk.js": "/Dhindhora-newsweb/static/js/2.b569769c.chunk.js",
+    "static/js/2.b569769c.chunk.js.map": "/Dhindhora-newsweb/static/js/2.b569769c.chunk.js.map",
+    "index.html": "/Dhindhora-newsweb/index.html",
+    "static/css/main.e1cf4a89.chunk.css.map": "/Dhindhora-newsweb/static/css/main.e1cf4a89.chunk.css.map",
+    "static/js/2.b569769c.chunk.js.LICENSE.txt": "/Dhindhora-newsweb/static/js/2.b569769c.chunk.js.LICENSE.txt",
+    "static/media/animation_500_kxbnk14g.dcfdb9c5.gif": "/Dhindhora-newsweb/static/media/animation_500_kxbnk14g.dcfdb9c5.gif",
+    "static/media/day-rain.5575c88c.gif": "/Dhindhora-newsweb/static/media/day-rain.5575c88c.gif",
+    "static/media/loading.3b2213da.gif": "/Dhindhora-newsweb/static/media/loading.3b2213da.gif",
+    "static/media/pngwing.com.30c4fde4.png": "/Dhindhora-newsweb/static/media/pngwing.com.30c4fde4.png",
+    "static/media/sun_cloud.56715820.gif": "/Dhindhora-newsweb/static/media/sun_cloud.56715820.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b891f0a3.js",
+    "static/js/2.b569769c.chunk.js",
+    "static/css/main.e1cf4a89.chunk.css",
+    "static/js/main.60de722c.chunk.js"
+  ]
+}
