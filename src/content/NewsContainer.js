@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import NewsCard from "./NewsCard";
-import Loading from './loading.gif'
+import Loading from './Images/loading.gif'
 
 const NewsContainer = (props) => {
   const [articles, setArticles] = useState(null);
@@ -44,9 +44,10 @@ const NewsContainer = (props) => {
     window.scrollTo(0,0)
   }
   useEffect(() => {
+    setLoading(true)
     axios
       .get(
-        `https://newsapi.org/v2/top-headlines?country=in&category=${category}&page=${page}&pageSize=16&apiKey=02d71b24a1de4080b89712178f822fab`
+        `https://newsapi.org/v2/top-headlines?country=in&category=${category}&page=0&pageSize=16&apiKey=02d71b24a1de4080b89712178f822fab`
       )
       .then(function (response) {
         // console.log(response);
@@ -56,7 +57,9 @@ const NewsContainer = (props) => {
         setArticles(ndata.articles);
         setTotalPages(Math.ceil(ndata.totalResults/16));
       });
-    }, []);
+      window.scrollTo(0,0)
+      setLoading(false);
+    }, [category]);
   return (
     <div>
       <div className="container mb-4">

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import image from "./pngwing.com.png";
-import sunImg from './animation_500_kxbnk14g.gif';
-import suncloudImg from './sun_cloud.gif'
-import dayrainImg from './day-rain.gif';
+import image from "./Images/pngwing.com.png";
+import sunImg from './Images/animation_500_kxbnk14g.gif';
+import suncloudImg from './Images/sun_cloud.gif'
+import dayrainImg from './Images/day-rain.gif';
 
 const Navbar = () => {
   // const [lat, setLat] = useState(null);
@@ -63,32 +63,32 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link to="/" className="nav-link" target="_blank">
+                <Link to="/" className="nav-link" >
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/business" className="nav-link" target="_blank">
+                <Link to="/business" className="nav-link" >
                   Business
                 </Link>
               </li>
               {/* <li className="nav-item">
-                <Link to="/politics" className="nav-link" target="_blank">
+                <Link to="/politics" className="nav-link" >
                   Politics
                 </Link>
               </li> */}
               <li className="nav-item">
-                <Link to="/sports" className="nav-link" target="_blank">
+                <Link to="/sports" className="nav-link" >
                   Sports
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/entertainment" className="nav-link" target="_blank">
+                <Link to="/entertainment" className="nav-link" >
                   Entertainment
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/technology" className="nav-link" target="_blank">
+                <Link to="/technology" className="nav-link" >
                   Technology
                 </Link>
               </li>
